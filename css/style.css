@@ -1,7 +1,72 @@
-body{
+body {
   background-color: bisque;
 }
 
-header{
-  background-color: brown;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3rem;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-list {
+  margin-right: 3rem;
+  color: #000;
+}
+
+.header-list:visited,
+.header-list:hover,
+.header-list:active {
+  color: #000;
+}
+
+form {
+  background: grey;
+  border-radius: 0.375rem;
+  position: relative;
+  display: inline;
+}
+
+input {
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 0.375rem;
+  font-size: 14px;
+  padding: 8px 40px 8px 20px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3.125rem;
+  height: 100%;
+  border-radius: 3.125rem;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 18px;
+}
+
+button i {
+  color: rgb(93, 94, 95);
+}
+
+button:hover i {
+  color: rgb(162, 163, 163);
 }
