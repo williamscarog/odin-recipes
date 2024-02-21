@@ -8,7 +8,7 @@ header {
   align-items: center;
   background-color: whitesmoke;
 }
-ul {
+.header-ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,4 +69,13 @@ button i {
 
 button:hover i {
   color: rgb(162, 163, 163);
+}
+hr {
+  margin: auto;
+  border-width: 0;
+  border-color: #ca3232;
+  height: 0.3rem;
+  background-color: #756c6c;
+  opacity: 31%;
+  margin-bottom: 1rem;
 }
